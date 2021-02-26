@@ -2,4 +2,14 @@ Source Code for Qualification Round of HashCode 2021 (real-time contest).
 
 We ultilize heuristic methods to get as much score as possible. We tried to sort the priority of the cars by their road lengths, then greedily assign the green and red light along all the roads with that order. It was also needed to remove all the roads that have no car cross. 
 
-We got 9,590,687 at the end and were placed 155th / 9000 teams. 
+The best score for each test: 
+A: 2002
+B: 4,567,029 
+C: 1,299,830
+D: 1,599,380
+E: 708,883
+F: 1,413,563
+
+We got 9,590,687 in total. I think the test F and E can be improved greatly more since both of them only have 83% cars end their road on time.
+
+In conclusion, although our score was not very high but we did have a lot of fun together. HashCode is really an interesting competition!
