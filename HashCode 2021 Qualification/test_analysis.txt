@@ -1,0 +1,35 @@
+- test B: 
+maxtime = 1e4
+vertex = 1e4
+eg = 1e4
+car = 1e3
+car_road = 50 edge
+time_to_cross_road ~ 100
+- test C: 
+maxtime = 1e3
+vertex = 1e4
+eg = 1e4
+car = 1e3
+car_road <= 200 edge
+time_to_cross_road <= 10
+- test D: 
+maxtime = 1e4
+vertex = 1e4
+eg = 1e5
+car = 1e3
+car_road = 200 all
+time_to_cross_road <= 100
+- test E: 
+maxtime = 1e3
+vertex = 500
+eg = 1e3
+car = 1e3
+car_road <= 10 edge
+time_to_cross_road <= 100
+- test F: 
+maxtime = 1e3
+vertex = 1e3
+eg = 1e4
+car = 1e3
+car_road <= 400 edge
+time_to_cross_road <= 10
