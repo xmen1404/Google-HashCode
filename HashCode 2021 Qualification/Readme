@@ -1,3 +1,5 @@
 Source Code for Qualification Round of HashCode 2021 (real-time contest). 
 
-We ultilize heuristic methods to get as much score as possible. We got 9,590,687 at the end and were placed 155th / 9000 teams. 
+We ultilize heuristic methods to get as much score as possible. We tried to sort the priority of the cars by their road lengths, then greedily assign the green and red light along all the roads with that order. It was also needed to remove all the roads that have no car cross. 
+
+We got 9,590,687 at the end and were placed 155th / 9000 teams. 
